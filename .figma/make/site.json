@@ -1,0 +1,10 @@
+{
+  "description": "Create stunning, customized landing pages effortlessly with this user-friendly web app, perfect for marketers and businesses looking to boost conversions.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

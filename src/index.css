@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Oswald', 'Arial Narrow', sans-serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+
+  /* Base — dark navy / graphite */
+  --color-navy-950: #0a1420;
+  --color-navy-900: #0f1b2d;
+  --color-navy-800: #16283f;
+  --color-navy-700: #1f3350;
+  --color-graphite: #263445;
+
+  /* Water blue accents */
+  --color-water-300: #7cc4e8;
+  --color-water-400: #3ea8db;
+  --color-water-500: #1a86c2;
+  --color-water-600: #0f6ba0;
+
+  /* Earth / neutral surfaces */
+  --color-sand-50: #f7f6f3;
+  --color-sand-100: #efece6;
+  --color-stone-200: #e3ddd3;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-sand-50);
+    color: var(--color-navy-900);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+  ::selection {
+    background: var(--color-water-400);
+    color: #fff;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Hide scrollbars until scrolling */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+*:hover {
+  scrollbar-color: rgba(15, 27, 45, 0.25) transparent;
+}
