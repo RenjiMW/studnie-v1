@@ -16,6 +16,7 @@ import realizacja13 from "./imports/image-13.jpg"
 import realizacja14 from "./imports/image-14.jpg"
 import realizacja15 from "./imports/image-15.jpg"
 import aboutImage from "./imports/image.jpg"
+import ctaBandBg from "./imports/cta-band-bg.jpg"
 
 /* ------------------------------------------------------------------ *
  *  KONTAKT — placeholdery. Podmień na prawdziwe dane firmy.
@@ -23,9 +24,6 @@ import aboutImage from "./imports/image.jpg"
 const PHONE_DISPLAY = "+48 883 982 224"
 const PHONE_HREF = "tel:+48883982224"
 const EMAIL = "studnie.stroynowski@gmail.com"
-
-const IMG = (id: string, w = 1200, h = 900) =>
-  `https://images.unsplash.com/photo-${id}?w=${w}&h=${h}&fit=crop&auto=format`
 
 /* Realizacje — zdjęcia z prac firmy. */
 const GALLERY = [
@@ -627,7 +625,7 @@ function CtaBand() {
   return (
     <section className="relative isolate overflow-hidden bg-navy-950 py-20 sm:py-24">
       <img
-        src={IMG("1780415493102-9d9fbb669bf4", 2000, 800)}
+        src={ctaBandBg}
         alt=""
         aria-hidden="true"
         className="absolute inset-0 -z-10 size-full object-cover opacity-20"
