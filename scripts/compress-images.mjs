@@ -2,6 +2,8 @@ import fs from "node:fs/promises"
 import path from "node:path"
 import sharp from "sharp"
 
+/* Lokalnie: npm install sharp --no-save (albo npx pnpm add -D sharp) przed uruchomieniem. */
+
 const IMPORTS_DIR = path.resolve("src/imports")
 
 const TARGETS = {
