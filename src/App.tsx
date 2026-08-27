@@ -290,7 +290,7 @@ function Hero() {
           </div>
 
           <div className="mt-8 flex flex-wrap gap-2.5">
-            <TrustChip>Zielona Góra i 70 km wokół</TrustChip>
+            <TrustChip>Zielona Góra oraz okolice do 70 km</TrustChip>
             <TrustChip>Klienci indywidualni i firmy</TrustChip>
             <TrustChip>Indywidualna wycena</TrustChip>
           </div>
