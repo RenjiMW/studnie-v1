@@ -12,7 +12,6 @@ import realizacja9 from "./imports/IMG20260526131327.webp"
 import realizacja10 from "./imports/IMG20260526103629.webp"
 import realizacja11 from "./imports/IMG20260516100130.webp"
 import realizacja12 from "./imports/IMG20260429130833.webp"
-import realizacja13 from "./imports/IMG20260429095847.webp"
 import realizacja14 from "./imports/IMG20260429095621.webp"
 import realizacja15 from "./imports/IMG20260429095537.webp"
 import realizacja16 from "./imports/IMG20260429095513.webp"
@@ -31,14 +30,13 @@ const GALLERY = [
   { src: realizacja16, alt: "Realizacja odwiertu studni głębinowej w ogrodzie" },
   { src: realizacja15, alt: "Wiertnica przy domu podczas odwiertu studni głębinowej", span: "feature" },
   { src: realizacja14, alt: "Stanowisko wiertnicze ze zbiornikami i wiertnicą" },
-  { src: realizacja13, alt: "Wiertnica na posesji podczas odwiertu studni" },
   { src: realizacja12, alt: "Teren ogrodu podczas realizacji studni głębinowej" },
   { src: realizacja11, alt: "Samochód i wiertnica firmy podczas realizacji w terenie" },
   { src: realizacja10, alt: "Wiertnica i ekipa podczas odwiertu na posesji", span: "feature" },
   { src: realizacja9, alt: "Przygotowanie terenu i obsypka przy odwiercie" },
   { src: realizacja8, alt: "Odwiert studni po zakończeniu wiercenia" },
   { src: realizacja7, alt: "Skrzynka studzienna i pokrywy po zakończeniu prac" },
-  { src: realizacja6, alt: "Przyłącze rur od studni do instalacji na działce" },
+  { src: realizacja6, alt: "Przyłącze rur od studni do instalacji na działce", span: "tall" },
   { src: realizacja5, alt: "Ułożenie rury wodociągowej w wykopie wzdłuż ogrodzenia", span: "tall" },
   { src: realizacja4, alt: "Gotowa studnia głębinowa z pokrywą i kranem" },
   { src: realizacja3, alt: "Zabudowa studni z pompą w skrzynce i kranem ogrodowym" },
