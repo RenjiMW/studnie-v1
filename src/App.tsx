@@ -15,6 +15,32 @@ import realizacja12 from "./imports/IMG20260429130833.webp"
 import realizacja14 from "./imports/IMG20260429095621.webp"
 import realizacja15 from "./imports/IMG20260429095537.webp"
 import realizacja16 from "./imports/IMG20260429095513.webp"
+import realizacja17 from "./imports/IMG20260210105319.webp"
+import realizacja18 from "./imports/20240618_134936.webp"
+import realizacja19 from "./imports/20240604_133908.webp"
+import realizacja20 from "./imports/IMG-20240319-WA0008.webp"
+import realizacja21 from "./imports/IMG-20240319-WA0006.webp"
+import realizacja22 from "./imports/IMG-20240319-WA0003.webp"
+import realizacja23 from "./imports/20230926_160317.webp"
+import realizacja24 from "./imports/20230925_090842.webp"
+import realizacja25 from "./imports/20230909_130521.webp"
+import realizacja26 from "./imports/20230909_130505.webp"
+import realizacja27 from "./imports/20230909_130453.webp"
+import realizacja28 from "./imports/20230825_142438.webp"
+import realizacja29 from "./imports/20230802_100729.webp"
+import realizacja30 from "./imports/20230615_150423.webp"
+import realizacja31 from "./imports/20230615_150408.webp"
+import realizacja32 from "./imports/20230615_095724.webp"
+import realizacja33 from "./imports/20221118_092504.webp"
+import realizacja34 from "./imports/20221109_131955.webp"
+import realizacja35 from "./imports/20221109_131943.webp"
+import realizacja36 from "./imports/20221108_101634.webp"
+import realizacja37 from "./imports/20221108_101612.webp"
+import realizacja38 from "./imports/20221104_144651.webp"
+import realizacja39 from "./imports/20220629_130208.webp"
+import realizacja40 from "./imports/20220427_082730.webp"
+import realizacja41 from "./imports/20211004_172018.webp"
+import realizacja42 from "./imports/20211004_172006.webp"
 import aboutImage from "./imports/image.jpg"
 import ctaBandBg from "./imports/cta-band-bg.jpg"
 
@@ -25,7 +51,7 @@ const PHONE_DISPLAY = "+48 883 982 224"
 const PHONE_HREF = "tel:+48883982224"
 const EMAIL = "studnie.stroynowski@gmail.com"
 
-/* Realizacje — zdjęcia z prac firmy, od najstarszych. */
+/* Realizacje — istniejące zdjęcia bez zmiany kolejności, potem nowsze realizacje od najnowszych. */
 const GALLERY = [
   { src: realizacja16, alt: "Realizacja odwiertu studni głębinowej w ogrodzie" },
   { src: realizacja15, alt: "Wiertnica przy domu podczas odwiertu studni głębinowej", span: "feature" },
@@ -42,6 +68,32 @@ const GALLERY = [
   { src: realizacja3, alt: "Zabudowa studni z pompą w skrzynce i kranem ogrodowym" },
   { src: realizacja2, alt: "Pompa i automat ciśnieniowy na studni głębinowej" },
   { src: realizacja1, alt: "Pompa głębinowa przygotowana do montażu w studni", span: "tall" },
+  { src: realizacja17, alt: "Wiertnica na przyczepie przygotowana do realizacji", span: "feature" },
+  { src: realizacja18, alt: "Kopanie wykopu pod przyłącze studni głębinowej" },
+  { src: realizacja19, alt: "Gotowa studnia z kranem i pokrywą włazową" },
+  { src: realizacja20, alt: "Hydrofor i instalacja wodna w pomieszczeniu technicznym" },
+  { src: realizacja21, alt: "Stacja uzdatniania wody ze zbiornikami filtracyjnymi", span: "feature" },
+  { src: realizacja22, alt: "Automatyka pompy i zbiornik przeponowy", span: "tall" },
+  { src: realizacja23, alt: "Teren ogrodu po ułożeniu przyłącza studni" },
+  { src: realizacja24, alt: "Ogród przed rozpoczęciem prac przy studni" },
+  { src: realizacja25, alt: "Próba wydajności studni — woda z kranu ogrodowego" },
+  { src: realizacja26, alt: "Studnia z kranem na działce przy ogrodzeniu" },
+  { src: realizacja27, alt: "Pokrywa studni na działce po zakończeniu prac" },
+  { src: realizacja28, alt: "Próbki gruntu z odwiertu studni głębinowej" },
+  { src: realizacja29, alt: "Wnętrze studni kręgowej podczas prac", span: "tall" },
+  { src: realizacja30, alt: "Teren ogrodu przygotowany pod odwiert" },
+  { src: realizacja31, alt: "Miejsce odwiertu zabezpieczone plandeką" },
+  { src: realizacja32, alt: "Wiertnica i zbiornik technologiczny na posesji", span: "tall" },
+  { src: realizacja33, alt: "Kran ogrodowy po podłączeniu wody ze studni" },
+  { src: realizacja34, alt: "Studnia z kranem w ogrodzie po zakończeniu prac" },
+  { src: realizacja35, alt: "Skrzynka studzienna w trawniku po realizacji" },
+  { src: realizacja36, alt: "Wykop z rurą wodociągową w ogrodzie" },
+  { src: realizacja37, alt: "Przyłącze rur studni w wykopie" },
+  { src: realizacja38, alt: "Skrzynka studzienna i darnina po zakończeniu prac" },
+  { src: realizacja39, alt: "Żwir filtracyjny do obsypki studni głębinowej" },
+  { src: realizacja40, alt: "Płuczka wiertnicza podczas odwiertu studni" },
+  { src: realizacja41, alt: "Pompa w skrzynce studziennej", span: "tall" },
+  { src: realizacja42, alt: "Pokrywa skrzynki studziennej w trawniku" },
 ]
 
 const NAV = [
